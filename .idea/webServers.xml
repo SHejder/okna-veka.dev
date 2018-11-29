@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="b2cd44fc-d28b-43f1-8c31-4bef45a3354c" name="okna" url="http://141.8.193.99">
+        <fileTransfer host="141.8.193.99" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" forceListCommand="true" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

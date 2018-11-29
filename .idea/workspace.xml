@@ -1,7 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ed2958bc-9825-488d-ae36-028c6d2ab909" name="Default" comment="" />
+    <list default="true" id="ed2958bc-9825-488d-ae36-028c6d2ab909" name="Default" comment="add new asserts">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/webServers.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/okna/css/animate.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/okna/css/boutique.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/okna/css/carousel.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/okna/css/carousel_wood.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/okna/css/countdown.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/okna/css/fancySelect.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/okna/css/jquery-ui.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/okna/css/lightslider.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/okna/css/livechat.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/okna/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/okna/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/okna/css/main_wood1.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/okna/css/prettyPhoto.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/okna/css/reset.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/okna/css/theme.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/okna/css/theme1.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/okna/js/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/okna/js/theme.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/okna/layouts/theme.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/okna/layouts/theme.php" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,70 +41,86 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="-707742754">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.13" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="css" value="11" />
+          <entry key="php" value="63" />
+          <entry key="txt" value="49" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="CSS" value="11" />
+          <entry key="PHP" value="63" />
+          <entry key="PLAIN_TEXT" value="49" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="css" value="4" />
+          <entry key="html" value="2" />
+          <entry key="js" value="1" />
+          <entry key="php" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CSS" value="4" />
+          <entry key="HTML" value="2" />
+          <entry key="JavaScript" value="1" />
+          <entry key="PHP" value="3" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/plugins/js_composer/include/templates/shortcodes/vc_section.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1065">
-              <caret line="71" column="34" selection-start-line="71" selection-start-column="34" selection-end-line="71" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/okna/layouts/theme.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="710">
-              <caret line="1470" selection-start-line="1470" selection-end-line="1470" />
-              <folding>
-                <marker date="1539370947529" expanded="true" signature="32744:32779" ph="..." />
-                <marker date="1539370947529" expanded="true" signature="33368:33386" ph="..." />
-                <marker date="1539370947529" expanded="true" signature="34403:34421" ph="..." />
-                <marker date="1539370947529" expanded="true" signature="37180:37198" ph="..." />
-                <marker date="1539370947529" expanded="true" signature="38700:38735" ph="..." />
-                <marker date="1539370947529" expanded="true" signature="39262:39280" ph="..." />
-                <marker date="1539370947529" expanded="true" signature="40354:40372" ph="..." />
-                <marker date="1539370947529" expanded="true" signature="41267:41285" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/yandex_b6318f679cb7fba8.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/okna/css/main.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="116490">
-              <caret line="7766" column="21" selection-start-line="7766" selection-start-column="21" selection-end-line="7766" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-config.php">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/plugins/contact-form-7/includes/submission.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1290">
-              <caret line="86" column="20" selection-start-line="86" selection-start-column="20" selection-end-line="86" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.48081023">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/wp-content/themes/okna/layouts/theme.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="1436">
+                  <caret line="381" lean-forward="true" selection-start-line="381" selection-end-line="381" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="true" current-in-tab="false">
+            <entry file="remoteDeploymentFS://&lt;b2cd44fc-d28b-43f1-8c31-4bef45a3354c&gt;/public_html/okna-veka.dev/wp-content/themes/okna/layouts/theme.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="153">
+                  <caret line="14" lean-forward="true" selection-end-line="381" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$USER_HOME$/Downloads/Telegram Desktop/oknaveka/index.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="119">
+                  <caret line="7" selection-start-line="7" selection-end-line="8" />
+                  <folding>
+                    <element signature="n#section#0;n#body#0;n#html#0;n#!!top" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -108,16 +147,22 @@
       <dir>H:\shabash\site\wp-content</dir>
     </dirStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/wp-content/themes/okna/css/theme.css" />
-        <option value="$PROJECT_DIR$/wp-content/themes/okna/css/main.css" />
         <option value="$PROJECT_DIR$/yandex_b6318f679cb7fba8.html" />
         <option value="$PROJECT_DIR$/robots.txt" />
         <option value="$PROJECT_DIR$/theme.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/okna/functions.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/okna/layouts/discount_date.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/okna/css/main.css" />
+        <option value="$PROJECT_DIR$/wp-config.php" />
+        <option value="&lt;b2cd44fc-d28b-43f1-8c31-4bef45a3354c&gt;/public_html/okna-veka.dev/wp-content/themes/okna/css/main.css" />
+        <option value="&lt;b2cd44fc-d28b-43f1-8c31-4bef45a3354c&gt;/public_html/okna-veka.dev/wp-content/themes/okna/layouts/theme.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/okna/layouts/theme.php" />
       </list>
     </option>
@@ -128,38 +173,94 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="site" type="b2602c69:ProjectViewProjectNode" />
-              <item name="site" type="462c0819:PsiDirectoryNode" />
+              <item name="okna-veka" type="b2602c69:ProjectViewProjectNode" />
+              <item name="okna-veka" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="okna-veka" type="b2602c69:ProjectViewProjectNode" />
+              <item name="okna-veka" type="462c0819:PsiDirectoryNode" />
+              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="okna-veka" type="b2602c69:ProjectViewProjectNode" />
+              <item name="okna-veka" type="462c0819:PsiDirectoryNode" />
+              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="okna-veka" type="b2602c69:ProjectViewProjectNode" />
+              <item name="okna-veka" type="462c0819:PsiDirectoryNode" />
+              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+              <item name="okna" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="okna-veka" type="b2602c69:ProjectViewProjectNode" />
+              <item name="okna-veka" type="462c0819:PsiDirectoryNode" />
+              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+              <item name="okna" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="okna-veka" type="b2602c69:ProjectViewProjectNode" />
+              <item name="okna-veka" type="462c0819:PsiDirectoryNode" />
+              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+              <item name="okna" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="okna-veka" type="b2602c69:ProjectViewProjectNode" />
+              <item name="okna-veka" type="462c0819:PsiDirectoryNode" />
+              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+              <item name="okna" type="462c0819:PsiDirectoryNode" />
+              <item name="layouts" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\okna-veka\okna-veka\wp-content\themes\okna\js" />
+      <recent name="C:\okna-veka\okna-veka\wp-content\themes\okna\css" />
+      <recent name="C:\okna-veka\okna-veka\wp-content\themes\okna" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -184,6 +285,9 @@
       <method v="2" />
     </configuration>
   </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="ed2958bc-9825-488d-ae36-028c6d2ab909" name="Default" comment="" />
@@ -201,19 +305,50 @@
       <workItem from="1538757967938" duration="3392000" />
       <workItem from="1539370892330" duration="656000" />
       <workItem from="1539883341868" duration="29000" />
+      <workItem from="1543481718743" duration="7130000" />
     </task>
+    <task id="LOCAL-00001" summary="add new asserts">
+      <created>1543482450943</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1543482450943</updated>
+    </task>
+    <task id="LOCAL-00002" summary="linked new css">
+      <created>1543482678924</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1543482678924</updated>
+    </task>
+    <task id="LOCAL-00003" summary="add new asserts">
+      <created>1543484386196</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1543484386196</updated>
+    </task>
+    <task id="LOCAL-00004" summary="header">
+      <created>1543485957156</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1543485957156</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22162000" />
+    <option name="totallyTimeSpent" value="29292000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info id="Structure" order="1" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.36353946" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.3672708" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="File Transfer" weight="0.32936078" />
       <window_info anchor="bottom" id="Terminal" order="0" />
       <window_info anchor="bottom" id="TODO" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -221,12 +356,22 @@
       <window_info anchor="bottom" id="Debug" order="4" />
       <window_info anchor="bottom" id="Event Log" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="6" show_stripe_button="false" />
-      <window_info anchor="right" id="Remote Host" order="0" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="right" id="Remote Host" order="0" weight="0.32995737" />
       <window_info anchor="right" id="Database" order="1" />
     </layout>
   </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="linked new css" />
+    <MESSAGE value="add new asserts" />
+    <MESSAGE value="header" />
+    <option name="LAST_COMMIT_MESSAGE" value="header" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/js_composer/include/templates/shortcodes/vc_column_text.php">
@@ -298,49 +443,62 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/js_composer/include/templates/shortcodes/vc_section.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1065">
+        <state relative-caret-position="1207">
           <caret line="71" column="34" selection-start-line="71" selection-start-column="34" selection-end-line="71" selection-end-column="34" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/yandex_b6318f679cb7fba8.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
+        <state relative-caret-position="85">
           <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/contact-form-7/includes/submission.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1462">
+          <caret line="86" column="20" selection-start-line="86" selection-start-column="20" selection-end-line="86" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/okna/header.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="28" column="32" selection-start-line="28" selection-start-column="32" selection-end-line="28" selection-end-column="32" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/okna/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116490">
-          <caret line="7766" column="21" selection-start-line="7766" selection-start-column="21" selection-end-line="7766" selection-end-column="21" />
+        <state relative-caret-position="17">
+          <caret line="1" column="14" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-config.php">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/okna/css/swiper.min.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/contact-form-7/includes/submission.php">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/okna/js/fancybox.min.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/Telegram Desktop/oknaveka/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1290">
-          <caret line="86" column="20" selection-start-line="86" selection-start-column="20" selection-end-line="86" selection-end-column="20" />
+        <state relative-caret-position="119">
+          <caret line="7" selection-start-line="7" selection-end-line="8" />
+          <folding>
+            <element signature="n#section#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/okna/layouts/theme.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="710">
-          <caret line="1470" selection-start-line="1470" selection-end-line="1470" />
-          <folding>
-            <marker date="1539370947529" expanded="true" signature="32744:32779" ph="..." />
-            <marker date="1539370947529" expanded="true" signature="33368:33386" ph="..." />
-            <marker date="1539370947529" expanded="true" signature="34403:34421" ph="..." />
-            <marker date="1539370947529" expanded="true" signature="37180:37198" ph="..." />
-            <marker date="1539370947529" expanded="true" signature="38700:38735" ph="..." />
-            <marker date="1539370947529" expanded="true" signature="39262:39280" ph="..." />
-            <marker date="1539370947529" expanded="true" signature="40354:40372" ph="..." />
-            <marker date="1539370947529" expanded="true" signature="41267:41285" ph="..." />
-          </folding>
+        <state relative-caret-position="1436">
+          <caret line="381" lean-forward="true" selection-start-line="381" selection-end-line="381" />
         </state>
       </provider>
     </entry>
