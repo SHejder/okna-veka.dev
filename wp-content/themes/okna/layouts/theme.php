@@ -35,77 +35,83 @@ $date = new discount_date();
     <script src="/wp-content/themes/okna/js/carousel.js"></script>
     <script src="/wp-content/themes/okna/js/jquery.scrollTo-min.js"></script>
     <?php echo $this['template']->render('head'); ?>
-<!--    <link rel="stylesheet" href="/wp-content/themes/okna/css/main.css">-->
-<!--    <link rel="stylesheet" href="/wp-content/themes/okna/css/animate.css">-->
-<!--    <link rel="stylesheet" href="/wp-content/themes/okna/css/boutique.css">-->
-<!--    <link rel="stylesheet" href="/wp-content/themes/okna/css/carousel.css">-->
-<!--    <link rel="stylesheet" href="/wp-content/themes/okna/css/carousel_wood.css">-->
-<!--    <link rel="stylesheet" href="/wp-content/themes/okna/css/countdown.css">-->
-<!--    <link rel="stylesheet" href="/wp-content/themes/okna/css/fancySelect.css">-->
-<!--    <link rel="stylesheet" href="/wp-content/themes/okna/css/jquery-ui.css">-->
-<!--    <link rel="stylesheet" href="/wp-content/themes/okna/css/lightslider.css">-->
-<!--    <link rel="stylesheet" href="/wp-content/themes/okna/css/livechat.css">-->
-<!--    <link rel="stylesheet" href="/wp-content/themes/okna/css/prettyPhoto.css">-->
+    <!--    <link rel="stylesheet" href="/wp-content/themes/okna/css/main.css">-->
+    <!--    <link rel="stylesheet" href="/wp-content/themes/okna/css/animate.css">-->
+    <!--    <link rel="stylesheet" href="/wp-content/themes/okna/css/boutique.css">-->
+    <!--    <link rel="stylesheet" href="/wp-content/themes/okna/css/carousel.css">-->
+    <!--    <link rel="stylesheet" href="/wp-content/themes/okna/css/carousel_wood.css">-->
+    <!--    <link rel="stylesheet" href="/wp-content/themes/okna/css/countdown.css">-->
+    <!--    <link rel="stylesheet" href="/wp-content/themes/okna/css/fancySelect.css">-->
+    <!--    <link rel="stylesheet" href="/wp-content/themes/okna/css/jquery-ui.css">-->
+    <!--    <link rel="stylesheet" href="/wp-content/themes/okna/css/lightslider.css">-->
+    <!--    <link rel="stylesheet" href="/wp-content/themes/okna/css/livechat.css">-->
+    <!--    <link rel="stylesheet" href="/wp-content/themes/okna/css/prettyPhoto.css">-->
     <link rel="stylesheet" href="/wp-content/themes/okna/css/main.css">
 
 </head>
 
 <body class="<?php echo $this['config']->get('body_classes'); ?>">
 
-<div id="popup1" class="popup1">
-    <div id="btn-close" class="f-close"></div>
-    <div class="header white">ЗАКАЗАТЬ ЗВОНОК</div>
+<!--<div id="popup1" class="popup1">-->
+<!--    <div id="btn-close" class="f-close"></div>-->
+<!--    <div class="header white">ЗАКАЗАТЬ ЗВОНОК</div>-->
+<!---->
+<!--    <input type="hidden" class="pop_type" value="">-->
+<!--    <input class="pop_name" type="text" placeholder='Ваше имя' value=''>-->
+<!--    <input class="pop_tel" type="text" placeholder='Телефон' value=''>-->
+<!--    <div id="callback-send1" class="b_yellow">ЖДУ ЗВОНКА</div>-->
+<!---->
+<!--</div>-->
+<!---->
+<!--<div id="spasibo" class="spasibo">-->
+<!--    <div class="header">СПАСИБО!</div>-->
+<!--    <div class="p1_msg">-->
+<!--        Ваша заявка отправлена успешно.-->
+<!--    </div>-->
+<!---->
+<!--    <a id="callback-spasibo" class="btn b_red">ЗАКРЫТЬ</a>-->
+<!---->
+<!--</div>-->
+<!---->
+<!--<div id="pozdr" class="pozdr">-->
+<!--    <div id="btn-close" class="f-close"></div>-->
+<!--    <div class="header black">АКЦИЯ -45%</div>-->
+<!--    <div class="p1_msg black">-->
+<!--        <!--        -->--><?php ////echo do_shortcode('[widget id="wysiwyg_widgets_widget-9"]'); ?>
+<!--        <p>До --><?php //echo $date->showDate(); ?><!-- — В честь дня рождения компании!</p>-->
+<!--        <span>Заполните простую форму и зафиксируйте стоимость изделий!</span>-->
+<!---->
+<!--    </div>-->
+<!--    <input class="pozdr_name" type="text" value='' placeholder="Ваше имя">-->
+<!--    <input class="pozdr_tel" type="text" value='' placeholder="Телефон">-->
+<!--    <div id="callback-pozdr" class="btn b_blue2 white" onclick="yaCounter50433520.reachGoal('AKCIYA_PUSH')">ОТПРАВИТЬ-->
+<!--    </div>-->
+<!--    <div class="sec">Окно закроется через <span id="sec">60</span> секунд</div>-->
+<!--</div>-->
+<!---->
+<!--<div id="hide-layout" class="hide-layout"></div>-->
+<header>
+    <?php if ($this['widgets']->count('toolbar-l + toolbar-r')) : ?>
+        <div class="container">
+            <div class="row align-items-center">
 
-    <input type="hidden" class="pop_type" value="">
-    <input class="pop_name" type="text" placeholder='Ваше имя' value=''>
-    <input class="pop_tel" type="text" placeholder='Телефон' value=''>
-    <div id="callback-send1" class="b_yellow">ЖДУ ЗВОНКА</div>
+                <?php if ($this['widgets']->count('toolbar-l')) : ?>
+                    <div class="col-xl-4">
+                        <div class="contacts">
+                            <?php echo $this['widgets']->render('toolbar-l'); ?>
+                        </div>
 
-</div>
+                    </div>
+                <?php endif; ?>
 
-<div id="spasibo" class="spasibo">
-    <div class="header">СПАСИБО!</div>
-    <div class="p1_msg">
-        Ваша заявка отправлена успешно.
-    </div>
+                <?php if ($this['widgets']->count('toolbar-r')) : ?>
+                    <div class="col-xl-8"><?php echo $this['widgets']->render('toolbar-r'); ?></div>
+                <?php endif; ?>
 
-    <a id="callback-spasibo" class="btn b_red">ЗАКРЫТЬ</a>
-
-</div>
-
-<div id="pozdr" class="pozdr">
-    <div id="btn-close" class="f-close"></div>
-    <div class="header black">АКЦИЯ -45%</div>
-    <div class="p1_msg black">
-        <!--        --><?php //echo do_shortcode('[widget id="wysiwyg_widgets_widget-9"]'); ?>
-        <p>До <?php echo $date->showDate(); ?> — В честь дня рождения компании!</p>
-        <span>Заполните простую форму и зафиксируйте стоимость изделий!</span>
-
-    </div>
-    <input class="pozdr_name" type="text" value='' placeholder="Ваше имя">
-    <input class="pozdr_tel" type="text" value='' placeholder="Телефон">
-    <div id="callback-pozdr" class="btn b_blue2 white" onclick="yaCounter50433520.reachGoal('AKCIYA_PUSH')">ОТПРАВИТЬ
-    </div>
-    <div class="sec">Окно закроется через <span id="sec">60</span> секунд</div>
-</div>
-
-<div id="hide-layout" class="hide-layout"></div>
-
-<?php if ($this['widgets']->count('toolbar-l + toolbar-r')) : ?>
-    <div class="tm-toolbar uk-hidden-small">
-        <div class="uk-container uk-container-center uk-clearfix">
-
-            <?php if ($this['widgets']->count('toolbar-l')) : ?>
-                <div class="uk-float-left"><?php echo $this['widgets']->render('toolbar-l'); ?></div>
-            <?php endif; ?>
-
-            <?php if ($this['widgets']->count('toolbar-r')) : ?>
-                <div class="uk-float-right"><?php echo $this['widgets']->render('toolbar-r'); ?></div>
-            <?php endif; ?>
-
+            </div>
         </div>
-    </div>
-<?php endif; ?>
+    <?php endif; ?>
+</header>
 
 <?php if ($this['widgets']->count('logo + menu + search')) : ?>
     <nav class="tm-navbar uk-navbar">
@@ -497,9 +503,9 @@ $date = new discount_date();
                 var message = "";
 
                 //  message += days + " day" + ( days==1 ? '':'s' ) + ", ";
-                message += hours + " hour" + ( hours == 1 ? '' : 's' ) + ", ";
-                message += minutes + " minute" + ( minutes == 1 ? '' : 's' ) + " and ";
-                message += seconds + " second" + ( seconds == 1 ? '' : 's' ) + " <br />";
+                message += hours + " hour" + (hours == 1 ? '' : 's') + ", ";
+                message += minutes + " minute" + (minutes == 1 ? '' : 's') + " and ";
+                message += seconds + " second" + (seconds == 1 ? '' : 's') + " <br />";
 
                 if (newYear) {
                     message += "left until the new year!";
@@ -545,6 +551,7 @@ $date = new discount_date();
         $('#otz_carousel .frame3 .otz_name').css('color', '#000');
         $('.otz .otz1').removeClass('hide');
     });
+
     function pre_move_callback(anchor, instance, framenumber) {
         //  alert('Callback example: Frame '+framenumber+', with the link "'+anchor+'", moved forward (in Boutique with an ID of "'+instance+'").');
 
@@ -558,6 +565,7 @@ $date = new discount_date();
         }
 
     }
+
     function move_callback(anchor, instance, framenumber) {
         $('#otz_carousel .frame3 img').attr('src', '/wp-content/themes/okna/images/otz/' + ($('#otz_carousel .frame3 img').attr('id') + '.png'));
         $('#otz_carousel .frame3 .otz_prof').removeClass('hide');
@@ -1456,8 +1464,8 @@ left:-9999px;" alt=""/></div>
         }
         w['MangoObject'] = o;
         w[o] = w[o] || function () {
-                (w[o].q = w[o].q || []).push(arguments)
-            };
+            (w[o].q = w[o].q || []).push(arguments)
+        };
         w[o].u = u;
         w[o].t = 1 * new Date();
         s = d.createElement('script');
