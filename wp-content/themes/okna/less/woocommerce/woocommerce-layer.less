@@ -1,0 +1,37 @@
+// Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+// Variables
+// ========================================================================
+
+//
+// Badge
+//
+
+@badge-border:                                  @global-border;
+
+
+// Additional style fixes
+// ========================================================================
+
+
+.woocommerce,
+.woocommerce-page {
+
+    span.onsale {
+        min-height: 33px;
+        min-width: 33px;
+        padding: 0 15px;
+        line-height: 33px;
+        -webkit-border-radius: 0;
+        border-radius: 0;
+        border: 1px solid @badge-border;
+    }
+
+    a.button,
+    button.button,
+    input.button,
+    input[type="submit"],
+    #respond input#submit,
+    #content input.button { font-size: 13px!important; }
+
+}

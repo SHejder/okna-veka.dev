@@ -1,0 +1,5 @@
+User-Agent: *
+Disallow: /wp-login
+Disallow: /wp-admin
+
+

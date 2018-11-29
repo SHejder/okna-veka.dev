@@ -1,0 +1,127 @@
+// Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+//
+// Component: Search
+//
+// ========================================================================
+
+
+// Variables
+// ========================================================================
+
+@search-width:                                  @search-padding;
+@search-height:                                 @global-height;
+@search-padding:                                30px;
+@search-color:                                  @global-color;
+@search-placeholder-color:                      @global-color;
+@search-placeholder-color:                      rgba(0,0,0,0);
+
+@search-icon-size:                              14px;
+@search-icon-color:                             @global-color;
+
+// Dropdown modifier
+@dropdown-search-background:                    @global-dark-background;
+@dropdown-search-color:                         @global-contrast-color;
+@dropdown-search-navbar-margin-top:             5px;
+@dropdown-search-navbar-margin-right:           -15px;
+
+// Nav modifier
+@nav-search-color:                              @global-contrast-color;
+@nav-search-active-background:                  @global-dark-background;
+@nav-search-active-color:                       @global-contrast-color;
+@nav-search-header-color:                       @global-primary-color;
+@nav-search-divider-border:                     fade(@global-contrast-color, 30%);
+@nav-search-nested-color:                       @global-contrast-color;
+@nav-search-nested-hover-color:                 @global-contrast-color;
+
+//
+// New
+//
+
+@search-field-font-family:                      @global-small-font-family;
+@nav-search-hover-color:                        fade(@global-contrast-color, 30%);
+
+
+
+// Component
+// ========================================================================
+
+.hook-search() {}
+
+.hook-search-icon() {}
+
+
+// Sub-object `uk-search-field`
+// ========================================================================
+
+.hook-search-field() {
+    position: relative;
+    padding: 0;
+    font-family: @search-field-font-family;
+    cursor: pointer;
+    z-index: 1;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+.hook-search-field-focus() {}
+
+
+// Dropdown modifier: `uk-dropdown-search`
+// ========================================================================
+
+.hook-dropdown-search() {}
+
+
+// Nav modifier `uk-nav-search`
+// ========================================================================
+
+//
+// Items
+//
+
+.hook-nav-search() {}
+
+// Active
+.hook-nav-search-active() {}
+
+//
+// Sub-object: `uk-nav-header`
+//
+
+.hook-nav-search-header() {}
+
+//
+// Sub-object: `uk-nav-divider`
+//
+
+.hook-nav-search-divider() {}
+
+
+// Search in offcanvas
+// ========================================================================
+
+.hook-offcanvas-search-field() {}
+
+
+// Miscellaneous
+// ========================================================================
+
+.hook-search-misc() {
+
+    .uk-nav-search > li { padding-bottom: 15px; }
+
+    .uk-nav-search:hover li:not(.uk-active) a { color: @nav-search-hover-color; }
+
+    .uk-nav-search li:not(.uk-active) a:hover { color: @nav-search-nested-hover-color; }
+
+    // Sub-object `uk-search-field`
+    // ========================================================================
+
+    .uk-search-field:focus,
+    .uk-active .uk-search-field {
+        padding: 0 @search-padding;
+        cursor: text;
+    }
+
+}

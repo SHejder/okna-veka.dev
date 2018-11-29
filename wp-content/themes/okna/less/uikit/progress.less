@@ -1,0 +1,59 @@
+// Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+//
+// Component: Progress
+//
+// ========================================================================
+
+
+// Variables
+// ========================================================================
+
+@progress-background:                           darken(@global-light-background, 2%);
+@progress-margin-vertical:                      @global-margin;
+
+@progress-bar-background:                       @global-dark-background;
+@progress-bar-font-size:                        round((@global-font-size * 0.75)); // 12px
+@progress-bar-color:                            @global-contrast-color;
+
+@progress-bar-success-background:               @global-success-background;
+@progress-bar-warning-background:               @global-warning-background;
+@progress-bar-danger-background:                @global-danger-background;
+
+//
+// New
+//
+
+@progress-bar-font-family:                      @global-small-font-family;
+@progress-bar-font-weight:                      (@global-small-font-size - 2);
+
+
+// Component
+// ========================================================================
+
+.hook-progress() { border-radius: 100px; }
+
+
+// Sub-object: `progress-bar`
+// ========================================================================
+
+.hook-progress-bar() {
+    font-family: @progress-bar-font-family;
+    font-size: @progress-bar-font-size;
+}
+
+
+// Color modifiers
+// ========================================================================
+
+.hook-progress-bar-success() {}
+
+.hook-progress-bar-warning() {}
+
+.hook-progress-bar-danger() {}
+
+
+// Miscellaneous
+// ========================================================================
+
+.hook-progress-misc() {}
