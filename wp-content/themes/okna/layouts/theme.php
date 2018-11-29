@@ -35,17 +35,18 @@ $date = new discount_date();
     <script src="/wp-content/themes/okna/js/carousel.js"></script>
     <script src="/wp-content/themes/okna/js/jquery.scrollTo-min.js"></script>
     <?php echo $this['template']->render('head'); ?>
+<!--    <link rel="stylesheet" href="/wp-content/themes/okna/css/main.css">-->
+<!--    <link rel="stylesheet" href="/wp-content/themes/okna/css/animate.css">-->
+<!--    <link rel="stylesheet" href="/wp-content/themes/okna/css/boutique.css">-->
+<!--    <link rel="stylesheet" href="/wp-content/themes/okna/css/carousel.css">-->
+<!--    <link rel="stylesheet" href="/wp-content/themes/okna/css/carousel_wood.css">-->
+<!--    <link rel="stylesheet" href="/wp-content/themes/okna/css/countdown.css">-->
+<!--    <link rel="stylesheet" href="/wp-content/themes/okna/css/fancySelect.css">-->
+<!--    <link rel="stylesheet" href="/wp-content/themes/okna/css/jquery-ui.css">-->
+<!--    <link rel="stylesheet" href="/wp-content/themes/okna/css/lightslider.css">-->
+<!--    <link rel="stylesheet" href="/wp-content/themes/okna/css/livechat.css">-->
+<!--    <link rel="stylesheet" href="/wp-content/themes/okna/css/prettyPhoto.css">-->
     <link rel="stylesheet" href="/wp-content/themes/okna/css/main.css">
-    <link rel="stylesheet" href="/wp-content/themes/okna/css/animate.css">
-    <link rel="stylesheet" href="/wp-content/themes/okna/css/boutique.css">
-    <link rel="stylesheet" href="/wp-content/themes/okna/css/carousel.css">
-    <link rel="stylesheet" href="/wp-content/themes/okna/css/carousel_wood.css">
-    <link rel="stylesheet" href="/wp-content/themes/okna/css/countdown.css">
-    <link rel="stylesheet" href="/wp-content/themes/okna/css/fancySelect.css">
-    <link rel="stylesheet" href="/wp-content/themes/okna/css/jquery-ui.css">
-    <link rel="stylesheet" href="/wp-content/themes/okna/css/lightslider.css">
-    <link rel="stylesheet" href="/wp-content/themes/okna/css/livechat.css">
-    <link rel="stylesheet" href="/wp-content/themes/okna/css/prettyPhoto.css">
 
 </head>
 
